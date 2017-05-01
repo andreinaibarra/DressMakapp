@@ -8,13 +8,13 @@ import java.sql.DriverManager;
         //Datos para conectarnos a la BD  MySQL
         
         //Usuario de la BD
-        private String usuario = "root";
+        private String usuario = "dressmakapp";
         //Contraseña si tiene, si no tiene entonces dejar en blanco
-        private String pass = "1234"; 
+        private String pass = "Aeir2266468411"; 
         //Servidor (localhost si lo tenemos local) o puede ser un servidor remoto
-        private String host = "localhost";
+        private String host = "db4free.net";
         //Nombre de la base de datos a la cual queremos conectarnos
-        private String nombre_BD = "DressMakapp"; 
+        private String nombre_BD = "dressmakapp"; 
      
         //Objeto del tipo conexion lo delcaramos nulo
         private Connection con = null;
